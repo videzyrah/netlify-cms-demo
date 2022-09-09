@@ -1,10 +1,10 @@
 import Head from "next/head"
 import { Component } from 'react'
-import { attributes, react as HomeContent } from '../content/home.md';
+import { attributes, react as HomeContent } from '../content/reviews.md';
 
 export default class Home extends Component {
   render() {
-    let { title, recipes } = attributes;
+    let { title, reviews } = attributes;
     return (
       <>
         <Head>
@@ -14,11 +14,10 @@ export default class Home extends Component {
           <h1>{title}</h1>
           <HomeContent />
           <ul>
-            {recipes.map((recipe, k) => (
+            {reviews.map((review, k) => (
               <li key={k}>
-                <h2>{recipe.name}</h2>
-                <p>{recipe.instructions}</p>
-                <p><i>{recipe.notes}</i></p>
+                <h2>{review.name}</h2>
+                <p>{review.details}</p>
               </li>
             ))}
           </ul>
