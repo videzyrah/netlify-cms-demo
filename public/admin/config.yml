@@ -35,4 +35,13 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Details", name: "details", widget: "text"}
+            - label: "Product Image"
+              name: "image"
+              widget: "image"
+              choose_url: true
+              default: "/img/Roblox.jpg"
+              media_library:
+                config:
+                  multiple: true
+        
             
