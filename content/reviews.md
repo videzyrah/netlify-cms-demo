@@ -10,12 +10,12 @@ reviews:
       The fake Life isn't terrible when your broke, but better just to wait for the BOGO sale on the real thing.
     name: Publix generic cereals (raisin brand, cheerios, life).
     notes: abcdefg
-    image: ''
+    thumbnail: 
   - details: For $0.69 it's not bad maybe once  or twice a month when you're too
       hungry or tired to do any prep/wait for water to boil.
     name: Aldi canned macaroni and beef
     notes: abcdefg
-    image: ''
+    thumbnail:
   - details: They all suck.  As a rule of thumb, read the heating instructions on
       the back of any frozen dinners before buying.  Anything that says
       something like "remove the brownie, then heat, then replace brownie, heat
@@ -24,7 +24,7 @@ reviews:
       generally lame.
     name: Hungry-Man frozen meals
     notes: abcdefg
-    image: ''
+    thumbnail:
 ---
 Welcome to my awesome reviews of grocery store products.
 

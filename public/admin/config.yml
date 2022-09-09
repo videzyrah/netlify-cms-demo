@@ -22,6 +22,7 @@ collections:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Instructions", name: "instructions", widget: "text"}
             - { label: "Notes", name: "notes", widget: "text"}
+            - { label: "Image", name: "thumbnail", widget: "image"}
     - label: "Reviews"
       name: "reviews"
       file: "content/reviews.md"
@@ -35,13 +36,6 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Details", name: "details", widget: "text"}
-            - label: "Product Image"
-              name: "image"
-              widget: "image"
-              choose_url: true
-              default: "/img/Roblox.jpg"
-              media_library:
-                config:
-                  multiple: true
+            - { label: "Image", name: "thumbnail", widget: "image"}
         
             
