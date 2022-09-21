@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from 'next/image';
 import { Component } from 'react'
 import { attributes, react as HomeContent } from '../content/reviews.md';
 
