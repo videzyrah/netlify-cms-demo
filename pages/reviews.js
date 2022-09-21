@@ -17,6 +17,14 @@ export default class Home extends Component {
             {reviews.map((review, k) => (
               <li key={k}>
                 <h2>{review.name}</h2>
+                <Image
+                  priority
+                  src= {review.image}
+                  //className={utilStyles.borderCircle}
+                  height={144}
+                  width={144}
+                  alt="image"
+                 />
                 <p>{review.details}</p>
               </li>
             ))}
