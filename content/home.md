@@ -2,7 +2,7 @@
 title: MealsForMyself Recipes & Reviews Blog
 date: 2019-03-17T19:31:20.591Z
 recipes:
-  - instructions: Heat in Microwave on 9 for 70 seconds.
+  - instructions: Heat in Microwave on 9 for 75 seconds.
     name: Hot Dogs
     notes: Hebrew National Hot dogs or Nathan's are noticeably better than generics.
     thumbnail: img/20200104_190140.jpg
