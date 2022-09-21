@@ -18,7 +18,7 @@ export default class Home extends Component {
               <li key={k}>
                 <h2>{recipe.name}</h2>
                 <img
-                  src= {recipe.image}
+                  src= {recipe.thumbnail}
                   //className={utilStyles.borderCircle}
                   height="144"
                   width="144"

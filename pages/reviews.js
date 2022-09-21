@@ -18,8 +18,8 @@ export default class Home extends Component {
               <li key={k}>
                 <h2>{review.name}</h2>
                 <img
-                  src= {review.image}
-                  //className={utilStyles.borderCircle}
+                  src= {review.thumbnail}
+                  className={utilStyles.borderCircle}
                   height="144"
                   width="144"
                   alt="image"
