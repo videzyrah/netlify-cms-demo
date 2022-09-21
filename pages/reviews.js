@@ -19,7 +19,6 @@ export default class Home extends Component {
                 <h2>{review.name}</h2>
                 <img
                   src= {review.thumbnail}
-                  className={utilStyles.borderCircle}
                   height="144"
                   width="144"
                   alt="image"
