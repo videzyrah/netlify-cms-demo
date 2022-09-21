@@ -9,8 +9,5 @@ module.exports = {
         )
         return cfg;
     },
-    images: {
-        loader: 'default',
-        path: '',
-      },
+    
 }
