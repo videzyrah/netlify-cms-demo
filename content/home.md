@@ -15,7 +15,7 @@ recipes:
       on 425, add Gortons fish filets on top, continue cooking for 10 minutes.
     name: Toaster oven freezer aisle fish 'n chips.
     notes: "09/12/22: I forget the brands and cooking times actually"
-    thumbnail: img/20220913_204459.jpg
+    thumbnail: img/20200803_171830.jpg
 ---
 Welcome to my awesome list of mini-sized instant pot and toaster oven meals for those #SurvivingSingle.
 
